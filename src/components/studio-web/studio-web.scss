@@ -1,0 +1,157 @@
+.studio-web {
+  background-image: url(../../../public/MainBG.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;
+
+  .studio-web__container {
+    margin-top: 200px;
+    padding-bottom: 200px;
+    @media (max-width: 520px) {
+      margin-top: 150px;
+      padding-bottom: 150px;
+    }
+  }
+  .studio-web__content {
+    padding: 0 15px !important;
+    .studio-web__main {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 65px;
+      line-height: 150%;
+      /* identical to box height */
+
+      background: linear-gradient(91.2deg, #b5feef 10.31%, #2eecc5 165.09%);
+      text-shadow: rgba(46, 236, 197, 0.35) 0px 0px 25px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      @media (max-width: 910px) {
+        font-size: 55px;
+      }
+      @media (max-width: 780px) {
+        font-size: 40px;
+      }
+
+      @media (max-width: 584px) {
+        font-size: 35px;
+
+        margin-bottom: 15px;
+      }
+      @media (max-width: 520px) {
+        font-size: 30px;
+      }
+      @media (max-width: 453px) {
+        margin-bottom: 10px;
+        font-size: 35px;
+      }
+      @media (max-width: 350px) {
+        margin-bottom: 10px;
+        font-size: 30px;
+      }
+    }
+
+    .studio-web__subtitle {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 90px;
+      /* identical to box height */
+
+      background: linear-gradient(91.2deg, #b5feef 10.31%, #2eecc5 165.09%);
+      text-shadow: rgba(46, 236, 197, 0.35) 0px 0px 25px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      @media (max-width: 910px) {
+        font-size: 35px;
+        line-height: 70px;
+      }
+      @media (max-width: 625px) {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+      @media (max-width: 453px) {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      @media (max-width: 350px) {
+        display: none;
+      }
+    }
+
+    .studio-web__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 150%;
+      color: rgba(255, 255, 255, 0.65);
+      @media (max-width: 910px) {
+        font-size: 17px;
+      }
+      @media (max-width: 780px) {
+        font-size: 15px;
+      }
+      @media (max-width: 650px) {
+        font-size: 13px;
+      }
+    }
+
+    .studio-web__link {
+      margin-top: 35px;
+      .studio-web__btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 27px;
+
+        color: rgba($color: #ffffff, $alpha: 0.5);
+
+        padding: 20px 70px;
+        background: linear-gradient(90deg, #86ffc0, #2eecc5);
+        box-shadow: rgba(46, 236, 197, 0.35) 0px 0px 20px;
+        border: 2px solid #2eecc5;
+        // box-shadow: rgba(46, 236, 197, 0.35) 0px 0px 0px;
+        border-radius: 49px;
+        background: -webkit-linear-gradient(90deg, #468af7, #25eb88);
+        background: -moz-linear-gradient(90deg, #468af7, #25eb88);
+        background: -o-linear-gradient(90deg, #468af7, #25eb88);
+        background: linear-gradient(90deg, #468af7, #25eb88);
+
+        -webkit-transition: background 1s ease-out;
+        -moz-transition: background 1s ease-out;
+        -o-transition: background 1s ease-out;
+        transition: background 1s ease-out;
+        background-size: 500px 1px;
+        transition: all 0.5s ease-in;
+
+        @media (max-width: 625px) {
+          font-size: 30px;
+          padding: 20px 60px;
+        }
+        @media (max-width: 453px) {
+          font-size: 30px;
+          padding: 15px 55px;
+        }
+      }
+      .studio-web__btn:hover {
+        background-position: -230px;
+        color: rgba($color: #ffffff, $alpha: 1);
+      }
+    }
+  }
+}
+
+.stick {
+  margin: 0 -20px -10px;
+  .stick-cont {
+    max-width: 1920px;
+    margin: 0 auto;
+    img {
+      margin-left: -150px;
+    }
+  }
+}
