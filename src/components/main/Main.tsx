@@ -5,6 +5,7 @@ import StudioWeb from "../studio-web/StudioWeb";
 import WhyUs from "../why-us/WhyUs";
 import Portfolio from "../portfolio/Portfolio";
 import Tariffs from "../tariffs/Tariffs";
+import Request from "../request/Request";
 
 const Main: FC = () => {
   return (
@@ -14,6 +15,7 @@ const Main: FC = () => {
       <WhyUs />
       <Portfolio />
       <Tariffs />
+      <Request />
       <Footer />
     </div>
   );

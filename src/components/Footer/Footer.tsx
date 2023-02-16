@@ -21,7 +21,7 @@ const Footer: FC = () => {
               <Image className="footer__logo" src={GmailImg} alt="" />
             </div>
           </div>
-          <div className="footer__subtitle">© 2019–2023`</div>
+          <div className="footer__subtitle">© 2019–2023</div>
         </div>
       </div>
     </div>
